@@ -8,7 +8,8 @@ function Car(make, model) {
     };
   }
   
-  let myCar = new Car("Toyota", "Corolla");
-  
-  alert(myCar.getCarInfo());  
-  
+let myCar = new Car("Toyota", "Corolla");
+// alert(myCar.model);
+// alert(myCar.getCarInfo());  
+alert(myCar);
+alert(JSON.stringify(myCar))
