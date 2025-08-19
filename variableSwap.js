@@ -1,4 +1,3 @@
-// Task 1.9
 let variableA = 10;
 let variableB = 20;
 

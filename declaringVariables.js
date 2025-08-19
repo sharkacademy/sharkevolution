@@ -1,4 +1,3 @@
-// Task 1.10
 let myName = "Maria";
 let age = 30;
 let likesProgramming = true;
