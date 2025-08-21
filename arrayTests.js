@@ -1,13 +1,13 @@
-// var catalog = [];
-// catalog.push("Memórias Póstumas");
-// catalog.push("O Poder dos Quietos");
-// catalog.push("O Homem do Castelo Alto");
-// catalog.push("Orçamento sem falhas");
-// catalog.push("Essencialismo");
-// console.log("Catálogo inicial:", catalog);
+var catalog = [];
+catalog.push("Memórias Póstumas");
+catalog.push("O Poder dos Quietos");
+catalog.push("O Homem do Castelo Alto");
+catalog.push("Orçamento sem falhas");
+catalog.push("Essencialismo");
+console.log("Catálogo inicial:", catalog);
 
-// let searchBook = catalog.some(book => book == prompt("Qual livro deseja pesquisar: "));
-// console.log(searchBook);
+let searchBook = catalog.some(book => book == "Alien"));
+console.log(searchBook);
 
 // let arr = [5, 9, 5, 6, 7]; 
 // console.log(arr);
@@ -22,9 +22,9 @@
 
 
 
-let arr = [5, 9, 5, 6, 7]; 
-let reducedArr = arr.reduce((acc, num, indexNum) => acc + num / indexNum);
-console.log(reducedArr);
+// let arr = [5, 9, 5, 6, 7]; 
+// let reducedArr = arr.reduce((acc, num, indexNum) => acc + num / indexNum);
+// console.log(reducedArr);
 
 // Primeira iteração:
 // acc = 5, num = 9, indexNum = 1
