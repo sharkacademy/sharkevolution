@@ -1,12 +1,12 @@
 var catalog = [];
-catalog.push("Memórias Póstumas");
-catalog.push("O Poder dos Quietos");
-catalog.push("O Homem do Castelo Alto");
-catalog.push("Orçamento sem falhas");
-catalog.push("Essencialismo");
-console.log("Catálogo inicial:", catalog);
+// catalog.push("Memórias Póstumas");
+// catalog.push("O Poder dos Quietos");
+// catalog.push("O Homem do Castelo Alto");
+// catalog.push("Orçamento sem falhas");
+catalog.push({title: "The Promised Neverland", author: "Kaiu Shirai", genre: "Aventura", publishingYear: 2018, pages: 200});
+// console.log("Catálogo inicial:", catalog);
 
-let searchBook = catalog.some(book => book == "Alien"));
+let searchBook = catalog.some(obj => obj.title == "The Promised Neverland");
 console.log(searchBook);
 
 // let arr = [5, 9, 5, 6, 7]; 
