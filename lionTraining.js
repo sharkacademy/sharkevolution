@@ -14,4 +14,4 @@ while (consecutiveTrials < 3) {
   }
 }
 
-alert("Parabéns! O leão concluiu o treinamento com 3 acertos consecutivos!");
+alert("Parabéns! O leão concluiu o treinamento!");
