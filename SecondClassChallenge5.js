@@ -19,8 +19,8 @@ while (option !== 3) {
     "3 - Sair"
   ));
 
-  if (option === 1) { // 0,0 * 4 = 0,0 até 0,9 * 4 = 3,6 -> 0 - 3
-    let availableBooks = catalog.filter(book => book.available); // [1, 2, 3, 4]
+  if (option === 1) { 
+    let availableBooks = catalog.filter(book => book.available); 
     
     if (availableBooks.length > 0) {
       let randomIndex = Math.floor(Math.random() * availableBooks.length);
@@ -31,8 +31,8 @@ while (option !== 3) {
     }
 
   } else if (option === 2) {
-    let maxPages = parseInt(prompt("Digite o número máximo de páginas:")); // 300
-    let preferredGenre = prompt("Digite o gênero desejado:").toLowerCase(); // Aventura
+    let maxPages = parseInt(prompt("Digite o número máximo de páginas:")); 
+    let preferredGenre = prompt("Digite o gênero desejado:").toLowerCase(); 
 
     let filteredBooks = catalog.filter(book => book.pages <= maxPages && book.genre.toLowerCase() === preferredGenre);
     let filteredBooksTitles = filteredBooks.map(b => b.title);
