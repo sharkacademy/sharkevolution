@@ -10,7 +10,7 @@ let firstLowScore = arr.find(score => score < 80);
 alert("Primeira nota abaixo de 80: " + firstLowScore); // 76
 
 let subset = arr.slice(2, 6);
-alert("New array: " + subset); // [88, 76, 95, 89]
+alert("New array: " + subset); 
 
 let indexOf95OldArray = arr.findIndex(score => score == 95); // 4
 alert(indexOf95OldArray);

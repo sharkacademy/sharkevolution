@@ -7,23 +7,9 @@
 // addNums(firstNum, secondNum, 9);
 
 
+// function calculateTotal(price=10, tax){
+//     console.log(price+(price*tax))
+// }
 
+// calculateTotal(0.2);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-function calculateTotal(price=10, tax){
-    console.log(price+(price*tax))
-}
-
-calculateTotal(0.2);
