@@ -2,8 +2,8 @@ let students = ["Nicolle", "Gustavo", "Daniel"];
 let grades = ["1", "3", "10"];
 let mix = ["Willian", "@", "Katisleydy", 5, "Anna", 1000, "_"];
 
-let result = mix.sort();
-console.log(result);
+// let result = mix.sort();
+console.log(Array.isArray(students));
 
 // let indexLucas = students2.findIndex(student => student == "Lucas");
 // console.log(students2[indexLucas]);

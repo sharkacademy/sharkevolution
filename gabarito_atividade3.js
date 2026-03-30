@@ -30,12 +30,12 @@ function findBookByTitle() {
     alert(`Catálogo de livros: ${catalog.map(book => book.title)}`);
     let searchBook = prompt("Digite o nome do livro que deseja informações: ").trim().toLowerCase();
     let foundBook = catalog.find(book => book.title.toLowerCase() == searchBook);
-    alert(`O livro "${foundBook.title}" foi encontrado! Ele foi publicado em ${foundBook.publishingYear} e possui ${foundBook.pages} páginas. Seu autor é ${foundBook.author} e pertence ao gênero ${foundBook.genre}.`);
+    alert(`O livro "${foundBook}" foi encontrado! Ele foi publicado em ${foundBook.publishingYear} e possui ${foundBook.pages} páginas. Seu autor é ${foundBook.author} e pertence ao gênero ${foundBook.genre}.`);
 }
 
 function findBookIndexByTitle() {
     let searchBookIndex = prompt("Digite o nome do livro que deseja encontrar o índice: ").trim().toLowerCase();
-    let bookIndex = catalog.findIndex(book => book.title.trim().toLowerCase() == searchBookIndex);
+    let bookIndex = catalog.findIndex(book => book.title.toLowerCase() == searchBookIndex);
     alert(`O índice do livro "${searchBookIndex}" é ${bookIndex}.`);
 }
 
