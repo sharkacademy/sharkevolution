@@ -14,6 +14,7 @@ let animals = [
     {
         name: "Cinza",
         especies: "Felino",
+        
         age: 4,
         habitat: "Cozinha"
     }
